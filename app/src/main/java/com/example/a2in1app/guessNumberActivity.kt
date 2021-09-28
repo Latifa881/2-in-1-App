@@ -144,7 +144,7 @@ class guessNumberActivity : AppCompatActivity() {
                 return true
             }
           else -> {//main
-                var intent= Intent(this,guessPhraseActivity::class.java)
+                var intent= Intent(this,MainActivity::class.java)
                 startActivity(intent)
                 return true
             }

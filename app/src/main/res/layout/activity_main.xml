@@ -19,7 +19,7 @@
         android:layout_marginTop="50dp"
         android:layout_gravity="center"
         android:gravity="center"
-        android:text="Choose Your Game!"
+        android:text="Select "
         />
 
     <Button

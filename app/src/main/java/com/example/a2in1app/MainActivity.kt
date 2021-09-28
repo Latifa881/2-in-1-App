@@ -7,6 +7,7 @@ import android.view.Menu
 import android.view.MenuItem
 import android.widget.Button
 import android.widget.LinearLayout
+import android.widget.Toast
 import com.google.android.material.snackbar.Snackbar
 
 class MainActivity : AppCompatActivity() {
@@ -27,14 +28,17 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+
         guessNumberBT=findViewById(R.id.guessNumberBT)
         guessPhraseBT=findViewById(R.id.guessPhraseBT)
         linearLayoutID=findViewById(R.id.linearLayoutID)
         guessNumberBT.setOnClickListener{
-            changeActivity(0)
+          //  Toast.makeText(this, "guessNumberBT!", Toast.LENGTH_LONG).show()
+          changeActivity(0)
         }
         guessPhraseBT.setOnClickListener{
-            changeActivity(1)
+          //  Toast.makeText(this, "guessPhraseBT!", Toast.LENGTH_LONG).show()
+           changeActivity(1)
         }
 
     }
